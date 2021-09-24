@@ -40,14 +40,4 @@ func main() {
 
 	fmt.Printf("\r\n所有账号全部续期完成")
 }
-//func  SenMail(user string,password string)  {
-//	auth := sasl.NewPlainClient("", user, password)
-//	to := []string{"xhuan_blog@yeah.net"}
-//	msg := strings.NewReader("To: xhuan_blog@yeah.net\r\n" +
-//		"Subject: Euserv续期提醒!\r\n" +
-//		"\r\n" +Log+"\r\n")
-//	er2:= smtp.SendMail("smtp.yeah.net:25", auth, user, to, msg)
-//	if er2 != nil {
-//		fmt.Print(er2)
-//	}
-//}
+
