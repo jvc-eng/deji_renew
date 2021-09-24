@@ -1,4 +1,4 @@
-# 这个是个基于GOLANG开发的Euserv自动续期脚本
+# 这个是个基于GOLANG开发的德鸡自动续期脚本
 · 怎么用？
 首先在程序目录创建user.yaml 按照下面的格式填写 在执行./euserv -file ./user.yaml 就自动续费了
 请配合cron使用
@@ -20,6 +20,3 @@ accounts:
   - username: "用户2"
     password: "用户2"
 ```
-# 打赏一杯快乐水
-![打赏](https://52xhuan.cn/wp-content/uploads/2021/08/zanshang.png)
-# Power BY [小幻博客](https://52xhuan.cn)
