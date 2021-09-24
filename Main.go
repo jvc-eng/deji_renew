@@ -32,9 +32,9 @@ func main() {
 	}
 	fmt.Printf("发送邮件通知")
 	if config.SmtpSSL{
-		SendMailTls(config.SmtpUserName,config.SmtpPassWord,config.SmtpServer,"小幻_Euserv续期",Log,config.ContactsMail)
+		SendMailTls(config.SmtpUserName,config.SmtpPassWord,config.SmtpServer,"deji续期",Log,config.ContactsMail)
 	}else{
-		SendMail(config.SmtpUserName,config.SmtpPassWord,config.SmtpServer,"小幻_Euserv续期",Log,config.ContactsMail)
+		SendMail(config.SmtpUserName,config.SmtpPassWord,config.SmtpServer,"deji续期",Log,config.ContactsMail)
 	}
 
 
