@@ -1,4 +1,4 @@
-module Euserv
+module dejiserv
 
 go 1.16
 
